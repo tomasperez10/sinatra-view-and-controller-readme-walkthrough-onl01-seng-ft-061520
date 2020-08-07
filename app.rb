@@ -13,4 +13,10 @@ class App < Sinatra::Base
     # Write your code here!
 
   end
+
+  post '/reverse' do
+  puts params
+ 
+  erb :reversed
+end
 end
