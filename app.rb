@@ -18,5 +18,5 @@ class App < Sinatra::Base
   puts params
 
   erb :reversed
-end
+  end
 end
