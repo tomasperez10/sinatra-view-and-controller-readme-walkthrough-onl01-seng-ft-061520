@@ -16,7 +16,7 @@ class App < Sinatra::Base
 
   post '/reverse' do
   puts params
- 
+
   erb :reversed
 end
 end
